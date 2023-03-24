@@ -9,6 +9,7 @@ interface UserCreationAttrs{
     password: string;
 }
 
+
 @Table({tableName: 'users'})
 export class User extends Model<User, UserCreationAttrs> {  
 
